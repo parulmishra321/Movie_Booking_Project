@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.login-page{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form{
+  position:relative;
+  z-index: 1;
+  background: black;
+  opacity: 0.5;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  opacity: 0.9;
+
+}
+.form input {
+  font-family: "Roboto" ,sans-serif;
+  outline: 1;
+  background: #e6ccb3;
+  width: 150%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-left: -30px;
+}
+
+.register-switch {
+   height: 90px;
+   width: 150%;
+   margin-bottom: 15px;
+   margin-left: -30px;
+   padding: 4px;
+   border-radius: 2px;
+   background-color: #e6ccb3;
+   -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+   box-shadow: inset 0 1px rgba(0, 0, 0, 0.05), inset 1px 0 rgba(0, 0, 0, 0.02), inset -1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.register-switch-input {
+   display: none;
+}
+
+.register-switch-label {
+   float: left;
+   width: 50%;
+   line-height: 32px;
+   color: black;
+   text-align: center;
+   text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+}
+
+.register-switch-input:checked + .register-switch-label {
+   font-weight: 500;
+   color: #434248;
+   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+   background: white;
+   border-radius: 2px;
+   background-image: -webkit-linear-gradient(top, #fefefe, #eeeeee);
+   background-image: -moz-linear-gradient(top, #fefefe, #eeeeee);
+   background-image: -o-linear-gradient(top, #fefefe, #eeeeee);
+   background-image: linear-gradient(to bottom, #fefefe, #eeeeee);
+   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+#gender{
+  margin-left: -50px;
+}
+.form button{
+  font-family: "Roboto" , sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #b33c00;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: solid black;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover, .form button:active{
+  background: #ff884d;
+}
+.form .message{
+  margin: 15px 0 0;
+  color:black;
+  font-size: 12px;
+
+}
+.form .message a{
+  color: #4CAF50;
+  text-decoration: underline;
+}
+.form .Registration-Form{
+  display: none;
+}
